@@ -43,8 +43,8 @@ jobs:
 
       - name: Upload Windows Asset to Release
         uses: softprops/action-gh-release@v2
-        if: startsWith(github.ref, 'refs/tags/')
         with:
+          tag_name: v${{ env.VERSION }}
           files: dist/scrcpy_update.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
