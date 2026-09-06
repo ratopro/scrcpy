@@ -1,0 +1,8 @@
+#!/bin/sh
+# prerm — Se ejecuta antes de desinstalar el paquete
+set -e
+
+echo "Eliminando scrcpy_update..."
+
+#DEBHELPER#
+exit 0

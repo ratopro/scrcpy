@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Actualizador Scrcpy
+GenericName=scrcpy Installer
+Comment=Instala y actualiza scrcpy desde GitHub releases
+Exec=scrcpy_update
+Icon=scrcpy-update
+Terminal=false
+Categories=Utility;System;
+Keywords=scrcpy;android;screen;mirror;install;update;
+StartupNotify=true
+StartupWMClass=ScrcpyUpdaterApp

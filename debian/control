@@ -1,0 +1,21 @@
+Package: scrcpy-update
+Version: VERSION_PLACEHOLDER
+Architecture: amd64
+Maintainer: scrcpy-update <noreply@scrcpy-update>
+Installed-Size: INSTALLED_SIZE_PLACEHOLDER
+Depends: libgtk-3-0, libglib2.0-0
+Section: utils
+Priority: optional
+Homepage: https://github.com/Genymobile/scrcpy
+Description: Instalador y actualizador gráfico de scrcpy
+ Aplicación de escritorio para instalar, actualizar o eliminar scrcpy
+ directamente desde las releases oficiales de GitHub.
+ .
+ Detecta automáticamente la versión instalada y la plataforma del sistema.
+ Soporta Linux (x86_64, aarch64), Windows y macOS.
+ .
+ Uso:
+   scrcpy_update             Abre la interfaz gráfica
+   scrcpy_update --help      Muestra la ayuda
+   scrcpy_update --remove    Elimina scrcpy del sistema
+   scrcpy_update --version   Muestra la versión

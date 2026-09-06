@@ -1,0 +1,22 @@
+#!/bin/sh
+# postinst — Se ejecuta después de instalar el paquete
+set -e
+
+# Asegurar que el binario tiene permisos de ejecución
+chmod 755 /usr/bin/scrcpy_update
+
+# Crear directorio de configuración del usuario si no existe
+# (se hace en tiempo de ejecución, no aquí, ya que depende del usuario)
+
+echo ""
+echo "✅  scrcpy_update instalado correctamente."
+echo ""
+echo "   Uso:"
+echo "     scrcpy_update             → Abre la interfaz gráfica"
+echo "     scrcpy_update --help      → Muestra la ayuda"
+echo "     scrcpy_update --remove    → Elimina scrcpy del sistema"
+echo "     scrcpy_update --version   → Muestra la versión"
+echo ""
+
+#DEBHELPER#
+exit 0
