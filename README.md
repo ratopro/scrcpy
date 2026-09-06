@@ -29,11 +29,11 @@ Aplicación gráfica de escritorio y herramienta CLI para instalar, actualizar y
 
 Puedes descargar los instaladores y paquetes precompilados en la sección de **Releases** de GitHub:
 
-- **Linux (Debian / Ubuntu / Mint):** Descarga el archivo `.deb` más reciente (`scrcpy-update_X.Y.Z_amd64.deb`).
+- **Linux (Debian / Ubuntu / Mint):** Descarga el paquete `.deb` (`scrcpy-update_1.0.2_amd64.deb`).
   ```bash
   sudo dpkg -i scrcpy-update_1.0.2_amd64.deb
   ```
-- **Windows:** Puedes compilar o ejecutar directamente usando `build_windows.bat` para generar `scrcpy_update.exe`.
+- **Windows (10 / 11):** Descarga el ejecutable standalone portátil (`scrcpy_update.exe`), sin necesidad de instalar Python ni dependencias. Haz doble clic y listo.
 
 ---
 
